@@ -129,7 +129,7 @@ NYlatlon
 
 # set the xlim and ylim to NYC +/- 10
 # Murder rate of States in the North East
-mapmurNEColor <- MurderState + xlim(-84.01024,-64.01024)+ ylim(30.7029,50.7029)
+mapmurNEColor <- mappopSize + xlim(-84.01024,-64.01024)+ ylim(30.7029,50.7029)
 mapmurNEColor <- mapmurNEColor + coord_map() + ggtitle ("Murder rate and Population size of NorthEast States")
 mapmurNEColor
 
