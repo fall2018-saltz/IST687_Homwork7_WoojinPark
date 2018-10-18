@@ -13,9 +13,10 @@
 
 # So, Read in the census dataset first
 
+
 clean_data <- raw_data
 
-myfunction <- function(clean_data)
+myfunction <-function(clean_data)
 {
   clean_data<-clean_data[-53,]
   clean_data<-clean_data[-1,]
@@ -31,7 +32,6 @@ myfunction <- function(clean_data)
 
 cleanCensus<- myfunction(clean_data)
 str(cleanCensus)
-
 # Copy the USArrests dataset into a local variable (similar to HW 2)
 
 USArrests 
