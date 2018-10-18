@@ -33,6 +33,16 @@
             ],
             "source": "clean.R",
             "target": "mappopColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapmurColor",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mapmurColor.png"
         }
     ],
     "nodes": [
@@ -54,6 +64,6 @@
             "name": "mapmurColor.png"
         }
     ],
-    "updated_at": "2018-10-18 02:07:24",
+    "updated_at": "2018-10-18 02:07:32",
     "url": "https://github.com/fall2018-saltz/IST687_Homwork7_WoojinPark"
 }
