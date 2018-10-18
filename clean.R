@@ -118,16 +118,6 @@ mappopSize <- mappopSize + geom_point(data=MergeSt, aes(x=x, y=y,size=population
 mappopSize <- mappopSize + coord_map() + ggtitle ("Population size and Murder Rate of each States")
 mappopSize
 
-#5)	 Show the population as a circle per state (the larger the population, the larger the circle), 
-#using the location defined by the center of each state
-MurderState<-ggplot(MergeState, aes(map_id=state))
-MurderState<-MurderState+geom_map(map=us, aes(fill=Murder))+
-  expand_limits(x=us$long, y=us$lat)+
-  coord_map()+ggtitle("Murder Rate and Population")+
-  theme(plot.title = element_text(face="bold", size=20,color="blue",hjust = 0.5))+
-  geom_point(data=MergeState, aes(x=MergeState$lon,y=MergeState$lat,size=population))
-MurderState
-
 
 # Step D: Zoom the map
 # 6)	Repeat step C, but only show the states in the north east
