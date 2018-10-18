@@ -1,0 +1,95 @@
+{
+    "collaborators": [
+        "woojinpark"
+    ],
+    "created_at": "2018-10-18 01:36:41",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mappopColor",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mappopColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapmurColor",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mapmurColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mappopSize",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mappopSize.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapmurNEColor",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mapmurNEColor.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "woojinpark",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "mappopColor.png"
+        },
+        {
+            "name": "mapmurColor.png"
+        },
+        {
+            "name": "mappopSize.png"
+        },
+        {
+            "name": "mapmurNEColor.png"
+        }
+    ],
+    "updated_at": "2018-10-18 02:17:01",
+    "url": "https://github.com/fall2018-saltz/IST687_Homwork7_WoojinPark"
+}
