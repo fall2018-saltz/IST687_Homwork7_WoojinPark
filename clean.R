@@ -29,7 +29,7 @@ myfunction <- function(clean_data)
   return(clean_data)
 }
 
-cleanCensus<- myfunction()
+cleanCensus<- myfunction(clean_data)
 str(cleanCensus)
 
 # Copy the USArrests dataset into a local variable (similar to HW 2)
