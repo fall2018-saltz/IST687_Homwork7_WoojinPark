@@ -88,8 +88,11 @@
         },
         {
             "name": "MurderState.png"
+        },
+        {
+            "name": "mapmurNEColor.png"
         }
     ],
-    "updated_at": "2018-10-18 02:08:15",
+    "updated_at": "2018-10-18 02:08:25",
     "url": "https://github.com/fall2018-saltz/IST687_Homwork7_WoojinPark"
 }
