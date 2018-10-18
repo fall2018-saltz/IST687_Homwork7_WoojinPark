@@ -53,6 +53,16 @@
             ],
             "source": "clean.R",
             "target": "mappopSize.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderState",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MurderState.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "MurderState.png"
         }
     ],
-    "updated_at": "2018-10-18 02:08:06",
+    "updated_at": "2018-10-18 02:08:15",
     "url": "https://github.com/fall2018-saltz/IST687_Homwork7_WoojinPark"
 }
