@@ -14,24 +14,25 @@
 # So, Read in the census dataset first
 
 
-clean_data <- raw_data
+clean_data1 <- raw_data
 
-myfunction <-function(clean_data)
+myfunction <-function(clean_data1)
 {
-  clean_data<-clean_data[-53,]
-  clean_data<-clean_data[-1,]
-  cnames <- colnames(clean_data)
+  clean_data1<-clean_data1[-53,]
+  clean_data1<-clean_data1[-1,]
+  cnames <- colnames(clean_data1)
   cnames[5] <-"stateName"
   cnames[6] <-"population"
   cnames[7] <-"popOver18"
   cnames[8] <-"percentOver18"
-  colnames(clean_data) <-cnames
-  clean_data<-clean_data[,-1:-4]
-  return(clean_data)
+  colnames(clean_data1) <-cnames
+  clean_data1<-clean_data1[,-1:-4]
+  return(clean_data1)
 }
 
-cleanCensus<- myfunction(clean_data)
+cleanCensus<- myfunction(clean_data1)
 str(cleanCensus)
+
 # Copy the USArrests dataset into a local variable (similar to HW 2)
 
 USArrests 
