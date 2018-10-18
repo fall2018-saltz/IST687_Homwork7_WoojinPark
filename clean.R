@@ -107,7 +107,6 @@ mapmurColor
 # 5) Show the population as a circle per state (the larger the population, the larger the circle), 
 # named map mapmurColor
 mappopSize <- ggplot(MergeSt, aes(map_id =stateName))
-# fill in to state area
 mappopSize <- mappopSize + geom_map(map = us, aes(fill = Murder))
 # make limits the x and y coordinates (longitude and latitude)
 mappopSize <- mappopSize + geom_point(data=MergeSt, aes(x=x, y=y,size=population),colour="red" )
