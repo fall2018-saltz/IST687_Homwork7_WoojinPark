@@ -63,6 +63,16 @@
             ],
             "source": "clean.R",
             "target": "MurderState.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapmurNEColor",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mapmurNEColor.png"
         }
     ],
     "nodes": [
@@ -93,6 +103,6 @@
             "name": "mapmurNEColor.png"
         }
     ],
-    "updated_at": "2018-10-18 02:08:25",
+    "updated_at": "2018-10-18 02:08:31",
     "url": "https://github.com/fall2018-saltz/IST687_Homwork7_WoojinPark"
 }
